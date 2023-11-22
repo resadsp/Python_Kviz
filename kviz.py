@@ -30,7 +30,7 @@ def display_score(corect_quesses, quesses):
         print(questions.get(i), end=" ")
     print()
     
-    print("VASI ODGOVORI: ", end="")
+    print("VASI ODGOVORI: ", end=" ")
     for i in quesses:
         print(i, end=" ")
     print()
